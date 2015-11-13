@@ -1,0 +1,111 @@
+/** 
+{
+	outline: 1px solid red;
+}*/
+body
+{
+ color:#555555;
+ font-family:arial,sans-serif;
+ font-size: 13px;
+}
+h1,h2,h3,h4
+{
+ color:#a9268d;
+ font-family:"oswald",arial,sans-serif;
+}
+.list-nav 
+{
+	list-style:none;
+	text-align:center;
+}
+.list-nav li
+{
+    display:inline-block;
+}
+.list-nav a
+{
+    display:block;
+    padding:5px 20px;
+    color:#555;
+    font-family:"oswald",arial,sans-serif;
+    text-decoration: none;
+}
+.list-nav a:hover
+{
+    text-decoration: none;/*despparece la linea que subraya a la palabra*/
+	background: #ececec;
+	transform:scale(1.2);/*agrande la letra*/
+	transition:all 0.5s;
+}
+.header-content
+{
+	background:url("../images/fondo-mar.jpg")center center; /*los puntos indican niveles*/
+	color:#fff;
+	text-align: center;
+	padding:50px 0;
+}
+.header-content h1,h2/* esta etiqueta de esta poniendo para pintar de blanco la letra*/
+{
+	color:#fff;
+}
+.acerca-de-mi .biografia img
+{
+ float:left;
+ width:200px;
+ margin-right:15px;
+ border:1px solid #555;
+ padding:5px;
+}
+.acerca-de-mi
+{
+	background: url("../images/cuerpo.jpg");
+	background-size:cover;
+}
+.favoritos
+{
+    text-align: center;
+}
+
+.galeria 
+{
+   list-style: none;
+   text-align: center;
+}
+.galeria li 
+{
+	display:inline-block;
+	margin:0 10px;
+}
+.galeria img
+{
+     border-radius: 50% ;
+     border:2px solid #a9268d;
+     padding:2px;
+     width:280px;
+     height:280px;  
+}
+.galeria a:hover
+{
+	transform:scale(1.2);/*agrande la letra*/
+	transition:all 2s;
+}
+.contacto
+{
+	background:url("../images/fondocontacto.jpg") center;
+	background-size: cover;
+	padding:10px;
+}
+.container1
+{
+	padding:30px;
+}
+.paginas
+{
+	list-style: none;
+	text-align: center;
+}
+.paginas li 
+{
+	display:inline-block;
+	margin:30px 20px;
+}
